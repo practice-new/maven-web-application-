@@ -83,14 +83,14 @@
 		</dependency>
 		
 		<!-- provided dependencies -->
-                <!--
+                <!-- duplicate declaration -->
            	<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
 			<scope>provided</scope>
-		</dependency>  -->
-		
+		</dependency> 
+		<!--  other dependencies -->
 	</dependencies>
 	
 	<distributionManagement>
